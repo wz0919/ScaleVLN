@@ -1,8 +1,9 @@
 # ScaleVLN
-Official implementation of the **ICCV 2023** paper: <br>**Scaling Data Generation in Vision-and-Language Navigation**<br>
+Official implementation of the **ICCV 2023** paper: 
+<br>**Scaling Data Generation in Vision-and-Language Navigation**<br>
 [**Zun Wang**](https://zunwang1.github.io/), [**Jialu Li**](https://jialuli-luka.github.io/), [**Yicong Hong**](http://www.yiconghong.me/), [Yi Wang](https://shepnerd.github.io/), [Qi Wu](http://www.qi-wu.me/), [Mohit Bansal](https://www.cs.unc.edu/~mbansal/), [Stephen Gould](http://users.cecs.anu.edu.au/~sgould/), [Hao Tan](https://www.cs.unc.edu/~airsplay/), [Yu Qiao](https://scholar.google.com/citations?hl=en&user=gFtI-8QAAAAJ&view_op=list_works)<br>
 
-[Paper & Appendices](???)
+[Paper & Appendices](https://arxiv.org/abs/2307.15644)
 
 ![teaser](./files/overall.jpg)
 
@@ -43,11 +44,11 @@ pip install -r requirements.txt
 
 ### R2R
 
-1. Download the required data from [here](???) and unzip it to `VLN-DUET/datasets/R2R`. It should include three folders `annotations, connectivity, connectivity_mp3d`.
+1. Download the required data from [here](https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/scalevln/r2r_preprocess_data.zip) and unzip it to `VLN-DUET/datasets/R2R`. It should include three folders `annotations, connectivity, connectivity_mp3d`.
 
-2. Download the CLIP and EnvEdit features from [here](???) and unzip it to `VLN-DUET/datasets/R2R`. It should include one folder `features`.
+2. Download the CLIP and EnvEdit features from [here](https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/scalevln/features.zip) and unzip it to `VLN-DUET/datasets/R2R`. It should include one folder `features`.
 
-3. (Optional) Download the trained models from [here](???) and unzip it to `VLN-DUET/datasets/R2R`. It should include one folder `trained_models`.
+3. (Optional) Download the trained models from [here](https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/scalevln/r2r_trained_models.zip) and unzip it to `VLN-DUET/datasets/R2R`. It should include one folder `trained_models`.
 
 4. Download pretrained lxmert from [here](https://nlp.cs.unc.edu/data/model_LXRT.pth) and place it at `VLN-DUET/datasets/pretrained/LXMERT`.
 
@@ -56,7 +57,7 @@ pip install -r requirements.txt
 
 ### Pre-training
 
-We use Two NVDIA A100 GPUs for pre-training DUET on ScaleVLN.
+We use Two NVDIA A100 GPUs for pre-training agents on ScaleVLN.
 
 ```bash
 bash run_r2r_b14.sh "0,1" 45008

@@ -10,3 +10,4 @@ __pycache__/
 
 VLN-DUET/datasets/*
 out/*
+!VLN-DUET/datasets/.gitkeep
