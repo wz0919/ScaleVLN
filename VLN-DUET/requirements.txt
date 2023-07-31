@@ -1,0 +1,12 @@
+# jsonlines==2.0.0
+# tqdm==4.62.0
+# easydict==1.9
+# Shapely==1.7.1
+# h5py==2.10.0
+timm==0.4.9
+# networkx==2.5.1
+# numpy==1.20.3
+# tensorboardX==2.4.1
+protobuf==3.20.1
+line_profiler=4.0.3
+# transformers==4.12.5
