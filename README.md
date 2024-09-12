@@ -44,11 +44,11 @@ pip install -r requirements.txt
 
 ### R2R
 
-1. Download the required data from [here](https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/scalevln/r2r_preprocess_data.zip) and unzip it to `VLN-DUET/datasets/R2R`. It should include three folders `annotations, connectivity, connectivity_mp3d`.
+1. Download the required data from [here](https://huggingface.co/datasets/OpenGVLab/ScaleVLN/blob/main/r2r_preprocess_data.zip) and unzip it to `VLN-DUET/datasets/R2R`. It should include three folders `annotations, connectivity, connectivity_mp3d`.
 
-2. Download the CLIP and EnvEdit features from [here](https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/scalevln/features.zip) and unzip it to `VLN-DUET/datasets/R2R`. It should include one folder `features`.
+2. Download the CLIP and EnvEdit features from [here](https://huggingface.co/datasets/OpenGVLab/ScaleVLN/blob/main/features.zip) and unzip it to `VLN-DUET/datasets/R2R`. It should include one folder `features`.
 
-3. (Optional) Download the trained models from [here](https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/scalevln/r2r_trained_models.zip) and unzip it to `VLN-DUET/datasets/R2R`. It should include one folder `trained_models`.
+3. (Optional) Download the trained models from [here](https://huggingface.co/datasets/OpenGVLab/ScaleVLN/blob/main/r2r_trained_models.zip) and unzip it to `VLN-DUET/datasets/R2R`. It should include one folder `trained_models`.
 
 4. Download pretrained lxmert from [here](https://nlp.cs.unc.edu/data/model_LXRT.pth) and place it at `VLN-DUET/datasets/pretrained/LXMERT`.
 
