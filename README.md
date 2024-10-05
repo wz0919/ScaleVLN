@@ -21,7 +21,7 @@ Recent research in language-guided visual navigation has demonstrated a signific
 
 - [x] ScaleVLN dataset
 - [x] Code, data and trained models for R2R
-- [ ] Code, data and trained models for other downstream tasks
+- [x] Code, data and trained models for RVR
 - [ ] Graph Construction Code
 - [ ] Speaker Training Code
 
@@ -74,6 +74,9 @@ bash scripts/r2r_b16_mix.sh 0
 bash scripts/r2r_h14_envedit_mix.sh 0
 ...
 ```
+
+## REVERIE
+Please see `ScaleVLN/VLN-DUET-RVR/README.md`.
 
 ## Citation
 Please cite our paper:
