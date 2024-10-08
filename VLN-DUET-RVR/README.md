@@ -1,5 +1,5 @@
 1. follow scaleVLN to get datasets for R2R and the pretrained LXMERT (connectivity files and img features of rvr are from R2R data) and unzip it in datasets.
-2. download RVR data from [here](ScaleVLN/VLN-DUET) and unzip it in datasets. We expects files in this structure:
+2. download RVR data from [here](https://huggingface.co/datasets/OpenGVLab/ScaleVLN/blob/main/rvr_data.zip) and unzip it in datasets. We expects files in this structure:
 ```
 datasets
     ├─ R2R
